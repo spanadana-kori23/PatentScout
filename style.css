@@ -1,0 +1,234 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4fa;
+    color: #222;
+}
+
+/* Header section */
+header {
+    background: linear-gradient(135deg, #172554, #5b21b6);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main content */
+main {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #312e81;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+
+main p {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Search box */
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 18px;
+}
+
+input:focus {
+    border-color: #6d28d9;
+}
+
+/* Search button */
+button {
+    background-color: #5b21b6;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+/* Search results section */
+#results {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f3ff;
+    border-radius: 10px;
+    border: 1px solid #ddd6fe;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Mobile screen support */
+@media (max-width: 600px) {
+
+    main {
+        margin: 25px 15px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+}
+/* Patent result card */
+.patent-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd6fe;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.patent-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Patent title */
+.patent-card h4 {
+    color: #312e81;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+/* Patent description */
+.patent-card p {
+    color: #555;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* Similarity score */
+.similarity-score {
+    color: #5b21b6 !important;
+    font-weight: bold;
+}
+
+/* Progress bar background */
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/* Actual progress bar */
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #6366f1, #7c3aed);
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* External patent link */
+#results a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #5b21b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#results a:hover {
+    text-decoration: underline;
+}
+/* Real patent database section */
+.external-sources {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Database heading */
+.external-sources h3 {
+    color: #312e81;
+    margin-bottom: 12px;
+}
+
+/* Database description */
+.external-sources p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Database links */
+.source-link {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 18px;
+    background-color: #5b21b6;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+/* Link hover effect */
+.source-link:hover {
+    background-color: #3730a3;
+}
+#clearButton {
+    background-color: #64748b;
+    margin-left: 8px;
+}
+
+#clearButton:hover {
+    background-color: #475569;
+}
